@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>AreaRestrita.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">PPROG3_ITERACAO_06_05_2018</a> &gt; <a href="index.source.html" class="el_package">models</a> &gt; <span class="el_source">AreaRestrita.java</span></div><h1>AreaRestrita.java</h1><pre class="source lang-java linenums">package models;
+
+import java.io.Serializable;
+
+/**
+ *
+ * Representa uma Área Restrita
+ */
+public class AreaRestrita implements Serializable {
+    
+    /**
+     * endereço lógico da área restrita
+     */
+    private int endeLogico;
+    /**
+     * endereço físico da área restrita
+     */
+    private int endeFisico;
+    /**
+     * código da área restrita
+     */
+    private int codigo;
+    /**
+     * lotação máxima da área restrita
+     */
+    private int lotMax;
+    /**
+     * localização da área restrita
+     */
+    private int localizacao;
+    /**
+     * lotação atual da área restrita
+     */
+    private int lotacao;
+    
+    /**
+     * Constrói uma instância de AreaRestrita
+     */
+<span class="fc" id="L39">    public AreaRestrita() {</span>
+        
+<span class="fc" id="L41">    }</span>
+    
+    /**
+     * Constrói uma instância de AreaRestrita com os seguintes parâmtros
+     *
+     * @param endeLogico
+     * @param endeFisico
+     * @param codigo
+     * @param lotMax
+     * @param localizacao
+     * @param lotacao
+     */
+<span class="fc" id="L53">    public AreaRestrita(int endeLogico, int endeFisico, int codigo, int lotMax, int localizacao, int lotacao) {</span>
+<span class="fc" id="L54">        this.endeLogico = endeLogico;</span>
+<span class="fc" id="L55">        this.endeFisico = endeFisico;</span>
+<span class="fc" id="L56">        this.codigo = codigo;</span>
+<span class="fc" id="L57">        this.lotMax = lotMax;</span>
+<span class="fc" id="L58">        this.localizacao = localizacao;</span>
+<span class="fc" id="L59">        this.lotacao = lotacao;</span>
+<span class="fc" id="L60">    }</span>
+    
+    /**
+     * Devolve o endereço lógico da área restrita
+     *
+     * @return
+     */
+    public int getEndeLogico() {
+<span class="nc" id="L68">        return endeLogico;</span>
+    }
+    
+    /**
+     * Modifica o endereço lógico da área restrita
+     *
+     * @param endeLogico
+     */
+    public void setEndeLogico(int endeLogico) {
+<span class="nc" id="L77">        this.endeLogico = endeLogico;</span>
+<span class="nc" id="L78">    }</span>
+    
+    /**
+     * Devolve o endereço físico da área restrita
+     *
+     * @return
+     */
+    public int getEndeFisico() {
+<span class="nc" id="L86">        return endeFisico;</span>
+    }
+    
+    /**
+     * Modifica o endereço físico da área restrita
+     *
+     * @param endeFisico
+     */
+    public void setEndeFisico(int endeFisico) {
+<span class="nc" id="L95">        this.endeFisico = endeFisico;</span>
+<span class="nc" id="L96">    }</span>
+    
+    /**
+     * Devolce o código da área restrita
+     *
+     * @return
+     */
+    public int getCodigo() {
+<span class="nc" id="L104">        return codigo;</span>
+    }
+    
+    /**
+     * Modifica o códido da área restrita
+     *
+     * @param codigo
+     */
+    public void setCodigo(int codigo) {
+<span class="nc" id="L113">        this.codigo = codigo;</span>
+<span class="nc" id="L114">    }</span>
+    
+    /**
+     * Devolve a lotação máxima da área restrita
+     *
+     * @return
+     */
+    public int getLotMax() {
+<span class="nc" id="L122">        return lotMax;</span>
+    }
+    
+    /**
+     * Modifica a lotação máxima da área restrita
+     *
+     * @param lotMax
+     */
+    public void setLotMax(int lotMax) {
+<span class="nc" id="L131">        this.lotMax = lotMax;</span>
+<span class="nc" id="L132">    }</span>
+    
+    /**
+     * Devolve a localização da área restrita
+     *
+     * @return
+     */
+    public int getLocalizacao() {
+<span class="nc" id="L140">        return localizacao;</span>
+    }
+    
+    /**
+     * Modifica a localização da área restrita
+     *
+     * @param localizacao
+     */
+    public void setLocalizacao(int localizacao) {
+<span class="nc" id="L149">        this.localizacao = localizacao;</span>
+<span class="nc" id="L150">    }</span>
+    
+    /**
+     * Devolve a lotação da área restrita
+     *
+     * @param lotacao
+     */
+    public void setLotacao(int lotacao) {
+<span class="nc" id="L158">        this.lotacao = lotacao;</span>
+<span class="nc" id="L159">    }</span>
+    
+    /**
+     * Verifica se o movimento é válido
+     *
+     * @param movimento
+     * @return true se o movimento for permitido
+     */
+    public boolean lotacaoPermiteAcesso(String movimento) {
+<span class="fc" id="L168">        String entrada = movimento;</span>
+<span class="pc bpc" id="L169" title="1 of 2 branches missed.">        if (entrada.equalsIgnoreCase(&quot;entrada&quot;)) {</span>
+<span class="fc" id="L170">            return true;</span>
+        }
+<span class="nc" id="L172">        return false;</span>
+        
+    }
+    
+    /**
+     * Devolve a descrição textual da área restrita
+     *
+     * @return descrição textual da área restrita
+     */
+    @Override
+    public String toString() {
+<span class="fc" id="L183">        return &quot;AreaRestrita{&quot; + &quot;endeLogico=&quot; + endeLogico + &quot;, endeFisico=&quot; + endeFisico + &quot;, codigo=&quot; + codigo + &quot;, lotMax=&quot; + lotMax + &quot;, localizacao=&quot; + localizacao + &quot;, lotacao=&quot; + lotacao + '}';</span>
+    }
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Leitura.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">PPROG3_ITERACAO_06_05_2018</a> &gt; <a href="index.source.html" class="el_package">utils</a> &gt; <span class="el_source">Leitura.java</span></div><h1>Leitura.java</h1><pre class="source lang-java linenums">package utils;
+
+import Interfaces.AtribuicaoDeCartao;
+import Interfaces.Cartao;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.Serializable;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Scanner;
+import models.AreaRestrita;
+import models.AtribuicaoCartaoDefinitivo;
+import models.CartaoIdentificacaoDefinitivo;
+import models.Colaborador;
+import models.Empresa;
+import models.Equipamento;
+import models.PerfilDeAutorizacao;
+import models.PeriodoDeAutorizacao;
+
+/**
+ *
+ * @author
+ */
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+/**
+ *
+ * @author mjdg1
+ */
+<span class="nc" id="L37">public class Leitura implements Serializable {</span>
+
+    public static void leituraCartaotxt(String nomeFicheiroCartoes, Empresa m_Empresa) throws FileNotFoundException {
+
+<span class="nc" id="L41">        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd&quot;);</span>
+
+<span class="nc" id="L43">        ArrayList&lt;Cartao&gt; listaCartoes = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L44">        ArrayList&lt;Colaborador&gt; listaColaboradores = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L45">        ArrayList&lt;Equipamento&gt; listaEquipamentos = new ArrayList&lt;&gt;();</span>
+        
+<span class="nc" id="L47">        Cartao cartao = null;</span>
+
+<span class="nc" id="L49">        AtribuicaoDeCartao atr = null;</span>
+<span class="nc" id="L50">        Colaborador colaborador = null;</span>
+<span class="nc" id="L51">        PerfilDeAutorizacao perfilDeAutorizacao = null;</span>
+<span class="nc" id="L52">        Equipamento equipamento = null;</span>
+<span class="nc" id="L53">        AreaRestrita areaRestrita = null;</span>
+
+<span class="nc" id="L55">        Scanner leitura = new Scanner(new File(nomeFicheiroCartoes));</span>
+<span class="nc bnc" id="L56" title="All 2 branches missed.">        while (leitura.hasNext()) {</span>
+<span class="nc" id="L57">            String[] aux = leitura.nextLine().split(&quot;;&quot;);</span>
+<span class="nc" id="L58">            cartao = new CartaoIdentificacaoDefinitivo(Integer.parseInt(aux[0]), LocalDate.parse(aux[1], dateTimeFormatter), Integer.parseInt(aux[2]));</span>
+<span class="nc" id="L59">            areaRestrita = new AreaRestrita(Integer.parseInt(aux[18]), Integer.parseInt(aux[19]), Integer.parseInt(aux[20]), Integer.parseInt(aux[21]), Integer.parseInt(aux[22]), Integer.parseInt(aux[23]));</span>
+<span class="nc" id="L60">            equipamento = new Equipamento(aux[11], aux[12], aux[13], aux[14], aux[15], aux[16], aux[17], areaRestrita);</span>
+<span class="nc" id="L61">            perfilDeAutorizacao = new PerfilDeAutorizacao(aux[9], aux[10]);</span>
+<span class="nc" id="L62">            perfilDeAutorizacao.adicionaPeriodo(equipamento, Integer.parseInt(aux[24]), aux[25], aux[26]);</span>
+<span class="nc" id="L63">            colaborador = new Colaborador(Integer.parseInt(aux[6]), aux[7], aux[8], perfilDeAutorizacao);</span>
+<span class="nc" id="L64">            atr = new AtribuicaoCartaoDefinitivo(LocalDate.parse(aux[3]), LocalDate.parse(aux[4]), LocalDate.parse(aux[5]), colaborador);</span>
+<span class="nc" id="L65">            cartao.registaAtribuicao(atr);</span>
+            
+<span class="nc" id="L67">            listaCartoes.add(cartao);</span>
+<span class="nc" id="L68">            listaEquipamentos.add(equipamento);</span>
+<span class="nc" id="L69">            listaColaboradores.add(colaborador);</span>
+<span class="nc" id="L70">        }</span>
+
+<span class="nc" id="L72">        leitura.close();</span>
+<span class="nc" id="L73">        m_Empresa.getRegistodeCartoes().setCartoes(listaCartoes);</span>
+<span class="nc" id="L74">        m_Empresa.getRegistoColaboradores().setColaboradores(listaColaboradores);</span>
+<span class="nc" id="L75">        m_Empresa.getRegistoDeEquipamentos().setEquipamentos(listaEquipamentos);</span>
+<span class="nc" id="L76">    }</span>
+
+    
+    public static void lerFicheiroBin(String nomeFicheiro, Empresa m_Empresa) throws IOException, ClassNotFoundException {
+<span class="nc" id="L80">        ObjectInputStream in = new ObjectInputStream(new FileInputStream(nomeFicheiro));      </span>
+        
+<span class="nc" id="L82">        m_Empresa.getRegistodeCartoes().getCartoes().addAll(((ArrayList&lt;Cartao&gt;) in.readObject()));</span>
+<span class="nc" id="L83">        m_Empresa.getRegistoColaboradores().getColaboradores().addAll(((ArrayList&lt;Colaborador&gt;) in.readObject()));</span>
+<span class="nc" id="L84">        m_Empresa.getRegistoDeEquipamentos().getEquipamentos().addAll(((ArrayList&lt;Equipamento&gt;) in.readObject()));</span>
+<span class="nc" id="L85">        in.close();</span>
+<span class="nc" id="L86">    }</span>
+    
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

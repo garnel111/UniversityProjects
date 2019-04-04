@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RegistarPerfilDeAutorizacaoUI.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">PPROG3_ITERACAO_06_05_2018</a> &gt; <a href="index.source.html" class="el_package">ui</a> &gt; <span class="el_source">RegistarPerfilDeAutorizacaoUI.java</span></div><h1>RegistarPerfilDeAutorizacaoUI.java</h1><pre class="source lang-java linenums">/*
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+ */
+package ui;
+
+import controllers.RegistarPerfilDeAutorizacaoController;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+import models.Empresa;
+import utils.Utils;
+
+/**
+ *
+ * @author mjdg1
+ */
+public class RegistarPerfilDeAutorizacaoUI {
+
+    private Empresa mEmpresa;
+    private RegistarPerfilDeAutorizacaoController registarPerfilDeAutorizacaoController;
+    private String diaDaSemana;
+
+<span class="nc" id="L29">    public RegistarPerfilDeAutorizacaoUI(Empresa mEmpresa) {</span>
+<span class="nc" id="L30">        this.mEmpresa = mEmpresa;</span>
+<span class="nc" id="L31">        registarPerfilDeAutorizacaoController = new RegistarPerfilDeAutorizacaoController(mEmpresa);</span>
+<span class="nc" id="L32">    }</span>
+
+    public void run() throws ParseException {
+<span class="nc" id="L35">        System.out.println(&quot;\nNovo Perfil de Autorização:&quot;);</span>
+
+<span class="nc" id="L37">        registarPerfilDeAutorizacaoController.novoPerfilDeAutorizacao();</span>
+
+<span class="nc" id="L39">        introduzDados();</span>
+<span class="nc" id="L40">    }</span>
+
+    private void introduzDados() throws ParseException {
+
+<span class="nc" id="L44">        String idPerfilDeAutorizacao = Utils.readLineFromConsole(&quot;Introduza o id do Perfil&quot;);</span>
+<span class="nc" id="L45">        String descricao = Utils.readLineFromConsole(&quot;Introduza a descricao do perfil&quot;);</span>
+
+<span class="nc" id="L47">        registarPerfilDeAutorizacaoController.setDados(idPerfilDeAutorizacao, descricao);</span>
+<span class="nc" id="L48">        ArrayList&lt;String&gt; m_EquipamentosList = procuraEquipamentos();</span>
+
+<span class="nc" id="L50">        apresentarEquipamentos(m_EquipamentosList);</span>
+
+<span class="nc bnc" id="L52" title="All 2 branches missed.">        if (registarPerfilDeAutorizacaoController.valida()) {</span>
+<span class="nc" id="L53">            String confirma = Utils.readLineFromConsole(&quot;Deseja Guardar este perfil?\nPerfil de autorização: &quot; + registarPerfilDeAutorizacaoController.getPerfilDeAutorizacao() + &quot;\n s-sim \n n-Não&quot;);</span>
+<span class="nc bnc" id="L54" title="All 2 branches missed.">            if (&quot;S&quot;.equalsIgnoreCase(confirma)) {</span>
+<span class="nc bnc" id="L55" title="All 2 branches missed.">                if (registarPerfilDeAutorizacaoController.registaPerfildeAutorizacao()) {</span>
+<span class="nc" id="L56">                    System.out.println(&quot;Perfil de autorização registado com sucesso&quot;);</span>
+                };
+            }
+
+<span class="nc" id="L60">        } else {</span>
+<span class="nc" id="L61">            System.out.println(&quot;Dados de perfil inválidos&quot;);</span>
+        }
+
+<span class="nc" id="L64">    }</span>
+
+    private void apresentaDados() {
+
+<span class="nc" id="L68">        System.out.print(registarPerfilDeAutorizacaoController.getPerfilDeAutorizacao());</span>
+
+<span class="nc" id="L70">    }</span>
+
+    private ArrayList&lt;String&gt; procuraEquipamentos() {
+
+<span class="nc" id="L74">        return registarPerfilDeAutorizacaoController.getListaDeEquipamentos();</span>
+
+    }
+
+    private void apresentarEquipamentos(ArrayList&lt;String&gt; registoDeEquipamentos) throws ParseException {
+<span class="nc" id="L79">        boolean flag = false;</span>
+<span class="nc" id="L80">        boolean flag2 = false;</span>
+        String opcao_eq;
+        String maisPeriodos;
+
+        do {
+<span class="nc" id="L85">            System.out.println(&quot;\n##### Equipamentos #####&quot;);</span>
+
+<span class="nc bnc" id="L87" title="All 2 branches missed.">            for (String item : registoDeEquipamentos) {</span>
+<span class="nc" id="L88">                System.out.println(item);</span>
+<span class="nc" id="L89">            }</span>
+<span class="nc" id="L90">            opcao_eq = Utils.readLineFromConsole(&quot;\nEscolha o equipamento a associar (O para sair)&quot;);</span>
+<span class="nc bnc" id="L91" title="All 2 branches missed.">            if (!opcao_eq.equalsIgnoreCase(&quot;0&quot;)) {</span>
+
+<span class="nc" id="L93">                registarPerfilDeAutorizacaoController.addEquipamentoById(opcao_eq);</span>
+<span class="nc bnc" id="L94" title="All 2 branches missed.">                if (!opcao_eq.equalsIgnoreCase(&quot;0&quot;)) {</span>
+
+<span class="nc" id="L96">                    System.out.println(&quot;\nIntroduza o periodo de autorizacao (O para sair)&quot;);</span>
+<span class="nc" id="L97">                    flag = introduzPeriodo();</span>
+
+                    do {
+<span class="nc" id="L100">                        maisPeriodos = Utils.readLineFromConsole(&quot;Deseja associar mais períodos a este equipamento?\n s-sim \n n-não&quot;);</span>
+<span class="nc bnc" id="L101" title="All 2 branches missed.">                        if (maisPeriodos.equalsIgnoreCase(&quot;s&quot;)) {</span>
+<span class="nc bnc" id="L102" title="All 2 branches missed.">                            while (flag2 == false) {</span>
+<span class="nc" id="L103">                                flag2 = introduzPeriodo();</span>
+<span class="nc" id="L104">                                maisPeriodos = Utils.readLineFromConsole(&quot;Deseja associar mais períodos a este equipamento?\n s-sim \n n-não&quot;);</span>
+                            }
+                        }
+
+<span class="nc bnc" id="L108" title="All 2 branches missed.">                    } while (maisPeriodos.equalsIgnoreCase(&quot;s&quot;));</span>
+                }
+            }
+
+<span class="nc bnc" id="L112" title="All 2 branches missed.">        } while (!opcao_eq.equals(&quot;0&quot;));</span>
+
+<span class="nc" id="L114">    }</span>
+
+    private boolean introduzPeriodo() throws ParseException {
+
+        try {
+
+<span class="nc" id="L120">            String diaDaSemana = Utils.readLineFromConsole(&quot;Introduza o dia da semana: \n 1-Domingo\n 2-Segunda-feira\n 3-Terça-feira\n 4-Quarta-feira\n 5-Quinta-feira\n 6-Sexta-feira\n 7-Domingo&quot;);</span>
+
+<span class="nc" id="L122">            int dia = Integer.parseInt(diaDaSemana.trim());</span>
+
+<span class="nc" id="L124">            validaDia(dia);</span>
+            
+<span class="nc" id="L126">            DateFormat inicialHour = new SimpleDateFormat(&quot;HH:mm&quot;);</span>
+<span class="nc" id="L127">            String horaInicial = Utils.readLineFromConsole(&quot;Introduza a hora de inicio(formato: HH:mm) &quot;);</span>
+<span class="nc" id="L128">            inicialHour.setLenient(false);</span>
+<span class="nc" id="L129">            Date dateInicial = inicialHour.parse(horaInicial);</span>
+
+<span class="nc" id="L131">            DateFormat finalHour = new SimpleDateFormat(&quot;HH:mm&quot;);</span>
+<span class="nc" id="L132">            String horaFinal = Utils.readLineFromConsole(&quot;Introduza a hora de fim(formato: HH:mm) &quot;);</span>
+<span class="nc" id="L133">            finalHour.setLenient(false);</span>
+<span class="nc" id="L134">            Date dateFinal = finalHour.parse(horaFinal);</span>
+
+<span class="nc bnc" id="L136" title="All 2 branches missed.">            while (!dateFinal.after(dateInicial)) {</span>
+
+<span class="nc" id="L138">                System.out.println(&quot;Deve introduzir uma hora final superior à inicial&quot;);</span>
+<span class="nc" id="L139">                horaFinal = Utils.readLineFromConsole(&quot;Introduza a hora de fim(formato: HH:mm) &quot;);</span>
+
+<span class="nc" id="L141">                dateFinal = finalHour.parse(horaFinal);</span>
+
+            }
+
+<span class="nc" id="L145">            registarPerfilDeAutorizacaoController.addPeriodo(dia, horaInicial, horaFinal);</span>
+<span class="nc" id="L146">            return true;</span>
+
+<span class="nc" id="L148">        } catch (ParseException pe) {</span>
+<span class="nc" id="L149">            System.out.println(&quot;Período Inválido\n Introduza novamente o  período&quot;);</span>
+
+        }
+<span class="nc" id="L152">        return false;</span>
+    }
+
+    private int validaDia(int dia) {
+
+<span class="nc bnc" id="L157" title="All 4 branches missed.">        if ((dia &lt;= 0 || dia &gt; 7)) {</span>
+<span class="nc" id="L158">            diaDaSemana = Utils.readLineFromConsole(&quot;Dia da semana inválido\n Introduza novamente o dia da semana: &quot;);</span>
+
+<span class="nc" id="L160">            dia = Integer.parseInt(diaDaSemana.trim());</span>
+        }
+<span class="nc" id="L162">        return dia;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Colaborador.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">PPROG3_ITERACAO_06_05_2018</a> &gt; <a href="index.source.html" class="el_package">models</a> &gt; <span class="el_source">Colaborador.java</span></div><h1>Colaborador.java</h1><pre class="source lang-java linenums">package models;
+
+import java.io.Serializable;
+
+/**
+ *
+ * Representa um colaborador
+ */
+public final class Colaborador implements Serializable {
+    
+    /**
+     * número mecanográfico do colaborador
+     */
+    private int numeroMecanografico;
+    /**
+     * nome completo do colaborador
+     */
+    private String nomeCompleto;
+    /**
+     * nome abreviado do colaborador
+     */
+    private String nomeAbrev;
+    /**
+     * perfil de autorização associado ao colaborador
+     */
+    private PerfilDeAutorizacao perfilDeAutorizacao;
+    
+    /**
+     * Constrói uma instância de colaborador recebendo os seguintes parâmetros
+     *
+     * @param numeroMecanografico
+     * @param nomeCompleto
+     * @param nomeAbrev
+     * @param perfilDeAutorizacao
+     */
+<span class="fc" id="L36">    public Colaborador(int numeroMecanografico, String nomeCompleto, String nomeAbrev, PerfilDeAutorizacao perfilDeAutorizacao) {</span>
+<span class="fc" id="L37">        this.setNumeroMecanografico(numeroMecanografico);</span>
+<span class="fc" id="L38">        this.setNomeCompleto(nomeCompleto);</span>
+<span class="fc" id="L39">        this.setNomeAbreviado(nomeAbrev);</span>
+<span class="fc" id="L40">        this.perfilDeAutorizacao = new PerfilDeAutorizacao();</span>
+<span class="fc" id="L41">        this.setPerfilDeAutorizacao(perfilDeAutorizacao);</span>
+<span class="fc" id="L42">    }</span>
+    
+    /**
+     * Constrói uma instância de colaborador
+     */
+<span class="nc" id="L47">    public Colaborador() {</span>
+<span class="nc" id="L48">        perfilDeAutorizacao = new PerfilDeAutorizacao();</span>
+<span class="nc" id="L49">    }</span>
+    
+    /**
+     * Devolve o nome abreviado do colaborador
+     *
+     * @return
+     */
+    public String getNomeAbrev() {
+<span class="nc" id="L57">        return nomeAbrev;</span>
+    }
+    
+    /**
+     * Modifica o nome abreviado do colaborador
+     *
+     * @param nomeAbrev
+     */
+    public void setNomeAbrev(String nomeAbrev) {
+<span class="nc" id="L66">        this.nomeAbrev = nomeAbrev;</span>
+<span class="nc" id="L67">    }</span>
+    
+    /**
+     * Devolve o número mecanográfico do colaborador
+     *
+     * @return
+     */
+    public int getNumeroMecanografico() {
+<span class="nc" id="L75">        return this.numeroMecanografico;</span>
+    }
+    
+    /**
+     * Modifica o número mecanográfico do colaborador
+     *
+     * @param numMecanog
+     */
+    public void setNumeroMecanografico(int numMecanog) {
+<span class="fc" id="L84">        this.numeroMecanografico = numMecanog;</span>
+<span class="fc" id="L85">    }</span>
+    
+    /**
+     * Modifica o nome completo do colaborador
+     *
+     * @param nomeCompleto
+     */
+    public void setNomeCompleto(String nomeCompleto) {
+<span class="fc" id="L93">        this.nomeCompleto = nomeCompleto;</span>
+<span class="fc" id="L94">    }</span>
+    
+    /**
+     * Modifica o nome avreviado do colaborador
+     *
+     * @param nomeAbreviado
+     */
+    public void setNomeAbreviado(String nomeAbreviado) {
+<span class="fc" id="L102">        this.nomeAbrev = nomeAbreviado;</span>
+<span class="fc" id="L103">    }</span>
+    
+    /**
+     * Valida o colaborador
+     *
+     * @return true se o colaborador for válido
+     */
+    public boolean valida() {
+<span class="pc bpc" id="L111" title="3 of 6 branches missed.">        return this.nomeCompleto != null &amp;&amp; this.nomeAbrev != null &amp;&amp; this.perfilDeAutorizacao.valida();</span>
+    }
+    
+    /**
+     * Valida o colaborador recebido por parâmetro
+     *
+     * @param m_colaborador
+     * @return true se o colaborador for válido
+     */
+    public boolean validaColaborador(Colaborador m_colaborador) {
+<span class="fc" id="L121">        boolean bRet = false;</span>
+<span class="pc bpc" id="L122" title="1 of 2 branches missed.">        if (m_colaborador.valida()) {</span>
+<span class="nc" id="L123">            bRet = true;</span>
+        }
+<span class="fc" id="L125">        return bRet;</span>
+    }
+    
+    /**
+     * Devolve o perfil de autorização do colaborador
+     *
+     * @return
+     */
+    public PerfilDeAutorizacao getPerfilDeAutorizacao() {
+<span class="nc" id="L134">        return perfilDeAutorizacao;</span>
+    }
+    
+    /**
+     * Modifica o perfil de autorização do colaborador
+     *
+     * @param perfilDeAutorizacao
+     */
+    public void setPerfilDeAutorizacao(PerfilDeAutorizacao perfilDeAutorizacao) {
+<span class="fc" id="L143">        this.perfilDeAutorizacao = perfilDeAutorizacao;</span>
+<span class="fc" id="L144">    }</span>
+    
+    /**
+     * Devolve a descrição textual do colaborador
+     *
+     * @return
+     */
+    @Override
+    public String toString() {
+<span class="nc" id="L153">        return &quot;Colaborador{&quot; + &quot;numeroMecanografico=&quot; + numeroMecanografico + &quot;, nomeCompleto=&quot; + nomeCompleto + &quot;, nomeAbrev=&quot; + nomeAbrev + '}';</span>
+    }
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.tp9_conversorgui.FXMLController">
+   <children>
+      <TitledPane animated="false" prefHeight="432.0" prefWidth="600.0" text="Conversor" textFill="#c30b0b" textOverrun="CLIP">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="converter_button" layoutX="65.0" layoutY="335.0" mnemonicParsing="false" onAction="#temperatureConverter" prefHeight="31.0" prefWidth="151.0" text="selecionar opção" />
+                  <TextField fx:id="inputTemperatura" layoutX="114.0" layoutY="193.0" prefHeight="31.0" prefWidth="53.0" />
+                  <Button fx:id="cleaner_button" layoutX="259.0" layoutY="335.0" mnemonicParsing="false" onAction="#cleanField" prefHeight="31.0" prefWidth="108.0" text="Limpar" />
+                  <Button fx:id="out_button" layoutX="422.0" layoutY="335.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="31.0" prefWidth="110.0" text="Sair" />
+                  <Text layoutX="50.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opção" wrappingWidth="51.6708984375" />
+               </children>
+            </AnchorPane>
+         </content>
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </TitledPane>
+   </children>
+</AnchorPane>

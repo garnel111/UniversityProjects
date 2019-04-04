@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Utils.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">PPROG3_ITERACAO_06_05_2018</a> &gt; <a href="index.source.html" class="el_package">utils</a> &gt; <span class="el_source">Utils.java</span></div><h1>Utils.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package utils;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ *
+ * @author Manuel Garnel
+ */
+<span class="nc" id="L23">public class Utils</span>
+{
+    static public String readLineFromConsole(String strPrompt)
+    {
+        try
+        {
+<span class="nc" id="L29">            System.out.println(strPrompt);</span>
+
+<span class="nc" id="L31">            InputStreamReader converter = new InputStreamReader(System.in);</span>
+<span class="nc" id="L32">            BufferedReader in = new BufferedReader(converter);</span>
+
+<span class="nc" id="L34">            return in.readLine();</span>
+<span class="nc" id="L35">        } catch (Exception e)</span>
+        {
+<span class="nc" id="L37">            e.printStackTrace();</span>
+<span class="nc" id="L38">            return null;</span>
+        }
+    }
+
+    static public Date readDateFromConsole(String strPrompt)
+    {
+        do
+        {
+            try
+            {
+<span class="nc" id="L48">                String strDate = readLineFromConsole(strPrompt);</span>
+
+<span class="nc" id="L50">                SimpleDateFormat df = new SimpleDateFormat(&quot;dd-MM-yyyy&quot;);</span>
+
+<span class="nc" id="L52">                Date date = df.parse(strDate);</span>
+
+<span class="nc" id="L54">                return date;</span>
+<span class="nc" id="L55">            } catch (ParseException ex)</span>
+            {
+<span class="nc" id="L57">                Logger.getLogger(Utils.class.getName()).log(Level.SEVERE, null, ex);</span>
+            }
+<span class="nc" id="L59">        } while (true);</span>
+    }
+    
+    static public boolean confirma(String sMessage) {
+        String strConfirma;
+        do {
+<span class="nc" id="L65">            strConfirma = Utils.readLineFromConsole(&quot;\n&quot; + sMessage + &quot;\n&quot;);</span>
+<span class="nc bnc" id="L66" title="All 4 branches missed.">        } while (!strConfirma.equalsIgnoreCase(&quot;s&quot;) &amp;&amp; !strConfirma.equalsIgnoreCase(&quot;n&quot;));</span>
+
+<span class="nc" id="L68">        return strConfirma.equalsIgnoreCase(&quot;s&quot;);</span>
+    }
+    static public Object apresentaESeleciona(List list,String sHeader)
+    {
+<span class="nc" id="L72">        apresentaLista(list,sHeader);</span>
+<span class="nc" id="L73">        return selecionaObject(list);</span>
+    }
+    static public void apresentaLista(List list,String sHeader)
+    {
+<span class="nc" id="L77">        System.out.println(sHeader);</span>
+
+<span class="nc" id="L79">        int index = 0;</span>
+<span class="nc bnc" id="L80" title="All 2 branches missed.">        for (Object o : list)</span>
+        {
+<span class="nc" id="L82">            index++;</span>
+
+<span class="nc" id="L84">            System.out.println(index + &quot;. &quot; + o.toString());</span>
+<span class="nc" id="L85">        }</span>
+<span class="nc" id="L86">        System.out.println(&quot;&quot;);</span>
+<span class="nc" id="L87">        System.out.println(&quot;0 - Cancelar&quot;);</span>
+<span class="nc" id="L88">    }</span>
+    
+    static public Object selecionaObject(List list)
+    {
+        String opcao;
+        int nOpcao;
+        do
+        {
+<span class="nc" id="L96">            opcao = Utils.readLineFromConsole(&quot;Introduza opção: &quot;);</span>
+<span class="nc" id="L97">            nOpcao = new Integer(opcao);</span>
+<span class="nc bnc" id="L98" title="All 4 branches missed.">        } while (nOpcao &lt; 0 || nOpcao &gt; list.size());</span>
+
+<span class="nc bnc" id="L100" title="All 2 branches missed.">        if (nOpcao == 0)</span>
+        {
+<span class="nc" id="L102">            return null;</span>
+        } else
+        {
+<span class="nc" id="L105">            return list.get(nOpcao - 1);</span>
+        }
+    }
+     private void getCurrentDay() {
+<span class="nc" id="L109">        DateFormat dateFormat = new SimpleDateFormat(&quot;yyyy/MM/dd HH:mm:ss&quot;);</span>
+<span class="nc" id="L110">        Calendar cal = Calendar.getInstance();</span>
+<span class="nc" id="L111">        System.out.println(dateFormat.format(cal.getTime()));</span>
+<span class="nc" id="L112">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

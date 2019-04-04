@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CartaoIdentificacaoDefinitivo.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">PPROG3_ITERACAO_06_05_2018</a> &gt; <a href="index.source.html" class="el_package">models</a> &gt; <span class="el_source">CartaoIdentificacaoDefinitivo.java</span></div><h1>CartaoIdentificacaoDefinitivo.java</h1><pre class="source lang-java linenums">package models;
+
+import Interfaces.AtribuicaoDeCartao;
+import Interfaces.Cartao;
+import java.io.Serializable;
+import java.time.LocalDate;
+import java.util.ArrayList;
+
+/**
+ *
+ * Representa um Cartão de Identificação Definitivo
+ */
+public class CartaoIdentificacaoDefinitivo implements Cartao, Serializable {
+    
+    /**
+     * id do cartão
+     */
+    private int cartaoId;
+    /**
+     * data de emissão do cartão
+     */
+    private LocalDate date;
+    /**
+     * versão do cartão
+     */
+    private int versao;
+    /**
+     * lista que guarda todas as atribuições do cartão
+     */
+    private ArrayList&lt;AtribuicaoDeCartao&gt; atribuicoes;
+    
+    /**
+     * Constrói uma instância de CartaIdentificacaoDefinitivo recebendo os
+     * seguintes parâmetros:
+     *
+     * @param cartaoId
+     * @param date
+     * @param versao
+     * @param atribuicoes
+     */
+<span class="nc" id="L41">    public CartaoIdentificacaoDefinitivo(int cartaoId, LocalDate date, int versao, ArrayList&lt;AtribuicaoDeCartao&gt; atribuicoes) {</span>
+<span class="nc" id="L42">        this.cartaoId = cartaoId;</span>
+<span class="nc" id="L43">        this.date = date;</span>
+<span class="nc" id="L44">        this.versao = versao;</span>
+<span class="nc" id="L45">        this.atribuicoes = atribuicoes;</span>
+<span class="nc" id="L46">    }</span>
+    
+    /**
+     * Constrói uma instância de CartaIdentificacaoDefinitivo recebendo os
+     * seguintes parâmetros:
+     *
+     * @param cartaoId
+     * @param date
+     * @param versao
+     */
+<span class="fc" id="L56">    public CartaoIdentificacaoDefinitivo(int cartaoId, LocalDate date, int versao) {</span>
+<span class="fc" id="L57">        this.cartaoId = cartaoId;</span>
+<span class="fc" id="L58">        this.date = date;</span>
+<span class="fc" id="L59">        this.versao = versao;</span>
+<span class="fc" id="L60">        this.atribuicoes = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L61">    }</span>
+    
+    /**
+     * Constrói uma instância de CartaIdentificacaoDefinitivo
+     */
+<span class="nc" id="L66">    public CartaoIdentificacaoDefinitivo() {</span>
+        
+<span class="nc" id="L68">    }</span>
+    
+    /**
+     * Devolve se o cartão é definitivo ou provisório
+     *
+     * @return true se o cartão for definitivo
+     */
+    @Override
+    public boolean eDefinitivo() {
+<span class="nc" id="L77">        return true;</span>
+    }
+    
+    /**
+     * Devolve o colaborador associado ao cartão para uma data recebida por
+     * parâmetro
+     *
+     * @param date
+     * @return colaborador
+     */
+    @Override
+    public Colaborador getColaboradorAtribuido(LocalDate date) {
+<span class="nc" id="L89">        boolean pertence = false;</span>
+<span class="nc" id="L90">        int size = atribuicoes.size();</span>
+<span class="nc" id="L91">        int i = 0;</span>
+<span class="nc bnc" id="L92" title="All 4 branches missed.">        while (i != size &amp;&amp; !pertence) {</span>
+<span class="nc" id="L93">            AtribuicaoDeCartao a = atribuicoes.get(i);</span>
+<span class="nc bnc" id="L94" title="All 2 branches missed.">            if (a.pertencePeriodo(date)) {</span>
+<span class="nc" id="L95">                pertence = true;</span>
+<span class="nc" id="L96">                return a.getColaborador();</span>
+            }
+<span class="nc" id="L98">            i++;</span>
+<span class="nc" id="L99">        }</span>
+<span class="nc" id="L100">        return null;</span>
+    }
+    
+    /**
+     * Devolve se o cartão é definitivo ou provisório
+     *
+     * @return true se o cartão for provisório
+     */
+    @Override
+    public boolean eProvisorio() {
+<span class="nc" id="L110">        return false;</span>
+    }
+    
+    /**
+     * Regista uma nova atribuição
+     *
+     * @param novaAC
+     * @return true se a atribuição for guardada com sucesso
+     */
+    @Override
+    public boolean registaAtribuicao(AtribuicaoDeCartao novaAC) {
+<span class="nc bnc" id="L121" title="All 2 branches missed.">        if (novaAC.valida()) {</span>
+<span class="nc" id="L122">            this.atribuicoes.add(novaAC);</span>
+<span class="nc" id="L123">            return true;</span>
+        }
+<span class="nc" id="L125">        return false;</span>
+    }
+    
+    /**
+     * Devolve a lista de atribuições do cartão
+     *
+     * @return
+     */
+    public ArrayList&lt;AtribuicaoDeCartao&gt; getAtribuicoes() {
+<span class="nc" id="L134">        return atribuicoes;</span>
+    }
+    
+    /**
+     * Modifica o id do cartão
+     *
+     * @param numeroIdentificacao
+     */
+    public void setCartaoId(int numeroIdentificacao) {
+<span class="nc" id="L143">        this.cartaoId = numeroIdentificacao;</span>
+<span class="nc" id="L144">    }</span>
+    
+    /**
+     * Modifica a data de emissão do cartão
+     *
+     * @param dataEmissao
+     */
+    public void setDataEmissao(LocalDate dataEmissao) {
+<span class="nc" id="L152">        this.date = dataEmissao;</span>
+<span class="nc" id="L153">    }</span>
+    
+    /**
+     * Devolve a data de emissão do cartão
+     *
+     * @return
+     */
+    public LocalDate getDataEmissao() {
+<span class="nc" id="L161">        return this.date;</span>
+    }
+    
+    /**
+     * Modifica a versão do cartão
+     *
+     * @param versao
+     */
+    public void setVersao(int versao) {
+<span class="nc" id="L170">        this.versao = versao;</span>
+<span class="nc" id="L171">    }</span>
+    
+    /**
+     * Devolve o id do cartão
+     *
+     * @return
+     */
+    @Override
+    public int getCartaoId() {
+<span class="fc" id="L180">        return this.cartaoId;</span>
+    }
+    
+    /**
+     * Valida o cartão
+     *
+     * @return
+     */
+    public boolean valida() {
+<span class="nc" id="L189">        return true;</span>
+    }
+    
+    /**
+     * Devolve a descrição textual do cartão
+     *
+     * @return
+     */
+    @Override
+    public String toString() {
+<span class="nc" id="L199">        return &quot;CartaoIdentificacaoDefinitivo{&quot; + &quot;cartaoId=&quot; + cartaoId + &quot;, date=&quot; + date + &quot;, versao=&quot; + versao + &quot;, atribuicoes=&quot; + atribuicoes + '}';</span>
+    }
+    
+    /**
+     * Valida se o cartão possui o id recebido por parâmetro
+     *
+     * @param cartaoID
+     * @return
+     */
+    @Override
+    public boolean isCartao(int cartaoID) {
+<span class="nc" id="L210">        return true;</span>
+    }
+    
+    /**
+     * Valida a atribuição do cartão
+     *
+     * @param novaAC
+     * @return true se a atribuição for válida
+     */
+    @Override
+    public boolean validaAtribuicao(AtribuicaoDeCartao novaAC) {
+<span class="nc" id="L221">        return true;</span>
+    }
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

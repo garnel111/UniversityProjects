@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RegistoDeCartoes.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">PPROG3_ITERACAO_06_05_2018</a> &gt; <a href="index.source.html" class="el_package">models</a> &gt; <span class="el_source">RegistoDeCartoes.java</span></div><h1>RegistoDeCartoes.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package models;
+
+import Interfaces.AtribuicaoDeCartao;
+import Interfaces.Cartao;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+
+/**
+ *
+ * @author mjdg1
+ */
+public class RegistoDeCartoes {
+
+    private ArrayList&lt;Cartao&gt; cartoes;
+
+<span class="nc" id="L28">    public RegistoDeCartoes(ArrayList&lt;Cartao&gt; cartoes) {</span>
+<span class="nc" id="L29">        this.cartoes = cartoes;</span>
+<span class="nc" id="L30">    }</span>
+
+<span class="nc" id="L32">    public RegistoDeCartoes(){</span>
+<span class="nc" id="L33">        this.cartoes = new ArrayList&lt;&gt;();</span>
+
+<span class="nc" id="L35">    }</span>
+
+    public boolean registaCartao(CartaoIdentificacaoDefinitivo m_CartaoIdentificacao) {
+<span class="nc bnc" id="L38" title="All 2 branches missed.">        if (validaCartao(m_CartaoIdentificacao)) {</span>
+<span class="nc" id="L39">            return addCartao(m_CartaoIdentificacao);</span>
+
+        }
+<span class="nc" id="L42">        return false;</span>
+    }
+
+    public Cartao getCartao(String idCartao) {
+<span class="nc" id="L46">        Cartao cartao = null;</span>
+<span class="nc" id="L47">        int idCartao1 = Integer.parseInt(idCartao);</span>
+<span class="nc bnc" id="L48" title="All 2 branches missed.">        for (Cartao item : cartoes) {</span>
+<span class="nc bnc" id="L49" title="All 2 branches missed.">            if (idCartao1 == item.getCartaoId()) {</span>
+<span class="nc" id="L50">                cartao = item;</span>
+            }
+
+<span class="nc" id="L53">        }</span>
+<span class="nc" id="L54">        return cartao;</span>
+
+    }
+
+    public Cartao getCartaoById(int idCartao) {
+<span class="nc bnc" id="L59" title="All 2 branches missed.">        for (Cartao itemCartao : cartoes) {</span>
+<span class="nc bnc" id="L60" title="All 2 branches missed.">            if (itemCartao.getCartaoId() == idCartao) {</span>
+<span class="nc" id="L61">                return itemCartao;</span>
+            }
+<span class="nc" id="L63">        }</span>
+<span class="nc" id="L64">        return null;</span>
+    }
+
+    public ArrayList&lt;Cartao&gt; getCartoes() {
+<span class="nc" id="L68">        return cartoes;</span>
+    }
+
+    public void setCartoes(ArrayList&lt;Cartao&gt; cartoes) {
+<span class="nc" id="L72">        this.cartoes = cartoes;</span>
+<span class="nc" id="L73">    }</span>
+
+    private boolean validaCartao(CartaoIdentificacaoDefinitivo m_CartaoIdentificacao) {
+<span class="nc" id="L76">        return true;</span>
+    }
+
+    private boolean addCartao(CartaoIdentificacaoDefinitivo m_CartaoIdentificacao) {
+<span class="nc" id="L80">        this.cartoes.add(m_CartaoIdentificacao);</span>
+<span class="nc" id="L81">        return true;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

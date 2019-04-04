@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RegistoDeEquipamentos.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">PPROG3_ITERACAO_06_05_2018</a> &gt; <a href="index.source.html" class="el_package">models</a> &gt; <span class="el_source">RegistoDeEquipamentos.java</span></div><h1>RegistoDeEquipamentos.java</h1><pre class="source lang-java linenums">/*
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+ */
+package models;
+
+import java.util.ArrayList;
+
+/**
+ *
+ * @author mjdg1
+ */
+public class RegistoDeEquipamentos {
+
+    private ArrayList&lt;Equipamento&gt; equipamentos;
+
+<span class="nc" id="L18">    public RegistoDeEquipamentos() {</span>
+<span class="nc" id="L19">        this.equipamentos = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L20">    }</span>
+
+<span class="nc" id="L22">    public RegistoDeEquipamentos(ArrayList&lt;Equipamento&gt; equipamentos) {</span>
+<span class="nc" id="L23">        this.equipamentos = equipamentos;</span>
+<span class="nc" id="L24">    }</span>
+
+    public ArrayList&lt;Equipamento&gt; getEquipamentos() {
+<span class="nc" id="L27">        return equipamentos;</span>
+    }
+
+    public void setEquipamentos(ArrayList&lt;Equipamento&gt; equipamentos) {
+<span class="nc" id="L31">        this.equipamentos = equipamentos;</span>
+<span class="nc" id="L32">    }</span>
+
+    public boolean registaEquipamento(Equipamento m_oEquipamento) {
+<span class="nc" id="L35">        return addEquipamento(m_oEquipamento);</span>
+    }
+
+    private boolean addEquipamento(Equipamento m_oEquipamento) {
+<span class="nc" id="L39">        return equipamentos.add(m_oEquipamento);</span>
+    }
+
+    public Equipamento getEquipamentoById(String idEquipamento) {
+<span class="nc bnc" id="L43" title="All 2 branches missed.">        for(Equipamento e:this.equipamentos){</span>
+<span class="nc bnc" id="L44" title="All 2 branches missed.">            if(idEquipamento.equalsIgnoreCase(e.getId())){</span>
+<span class="nc" id="L45">                return e;</span>
+            }
+<span class="nc" id="L47">        }</span>
+<span class="nc" id="L48">        return null;</span>
+    }
+
+    public Equipamento novoEquipamento() {
+<span class="nc" id="L52">        return new Equipamento();</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

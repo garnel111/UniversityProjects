@@ -1,0 +1,2 @@
+1;2018-05-19;1;2018-05-18;2018-05-19;2018-05-26;1;Manuel Garnel;Manuel;1;Perfil de Autorizacao1;20;teste1;teste2;ficheirodeconfiguracao1;novas;fabricante;entrada;1;3;5;8;13;21;6;12:00;23:44
+2;2018-05-16;1;2018-05-18;2018-05-19;2018-05-26;1;Arcénio Uate;Arcénio;2;Perfil de Autorizacao2;21;teste2;teste3;ficheirodeconfiguracao2;maisnovas;fabricante1;entrada;1;3;5;8;13;21;6;11:00;11:44

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PeriodoDeAutorizacao.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">PPROG3_ITERACAO_06_05_2018</a> &gt; <a href="index.source.html" class="el_package">models</a> &gt; <span class="el_source">PeriodoDeAutorizacao.java</span></div><h1>PeriodoDeAutorizacao.java</h1><pre class="source lang-java linenums">/*
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+*/
+package models;
+
+import java.io.Serializable;
+/**
+ *
+ * @author mjdg1
+ */
+public class PeriodoDeAutorizacao implements Serializable{
+ 
+    private int day;
+    private String inicialHour;
+    private String finalHour;
+    private Equipamento equipamento;
+
+ 
+<span class="fc" id="L21">    public PeriodoDeAutorizacao() {</span>
+<span class="fc" id="L22">    }</span>
+
+<span class="fc" id="L24">    public PeriodoDeAutorizacao(int day, String inicialHour, String finalHour, Equipamento equipamento) {</span>
+<span class="fc" id="L25">        this.day = day;</span>
+<span class="fc" id="L26">        this.inicialHour = inicialHour;</span>
+<span class="fc" id="L27">        this.finalHour = finalHour;</span>
+<span class="fc" id="L28">        this.equipamento = equipamento;</span>
+<span class="fc" id="L29">    }</span>
+
+  
+<span class="fc" id="L32">    public PeriodoDeAutorizacao(Equipamento equipamento, int diaDaSemana, String horaInicial, String horaFinal) {</span>
+<span class="fc" id="L33">        this.day = diaDaSemana;</span>
+<span class="fc" id="L34">        this.inicialHour = horaInicial;</span>
+<span class="fc" id="L35">        this.finalHour = horaFinal;</span>
+<span class="fc" id="L36">        this.equipamento = equipamento;</span>
+<span class="fc" id="L37">    }</span>
+    
+    public int getDay() {
+<span class="nc" id="L40">        return day;</span>
+    }
+    
+    public void setDay(int day) {
+<span class="nc" id="L44">        this.day = day;</span>
+<span class="nc" id="L45">    }</span>
+    
+    public String getInicialHour() {
+<span class="fc" id="L48">        return inicialHour;</span>
+    }
+    
+    public void setInicialHour(String inicialHour) {
+<span class="nc" id="L52">        this.inicialHour = inicialHour;</span>
+<span class="nc" id="L53">    }</span>
+    
+    public String getFinalHour() {
+<span class="fc" id="L56">        return finalHour;</span>
+    }
+    
+    public void setFinalHour(String finalHour) {
+<span class="nc" id="L60">        this.finalHour = finalHour;</span>
+<span class="nc" id="L61">    }</span>
+    public Equipamento getEquipamento() {
+<span class="fc" id="L63">        return equipamento;</span>
+    }
+
+    public void setEquipamento(Equipamento equipamento) {
+<span class="nc" id="L67">        this.equipamento = equipamento;</span>
+<span class="nc" id="L68">    }</span>
+     
+
+    public boolean valida() {
+<span class="pc bpc" id="L72" title="5 of 10 branches missed.">          if(this.day &gt;0 &amp;&amp; this.day &lt;8 &amp;&amp; this.inicialHour != null &amp;&amp; this.finalHour != null &amp;&amp; this.equipamento.valida()){</span>
+<span class="fc" id="L73">           return true;</span>
+       }
+<span class="nc" id="L75">       return false;</span>
+    }
+
+    @Override
+    public String toString() {
+<span class="fc" id="L80">        return &quot;PeriodoDeAutorizacao:\n&quot; + &quot;\t day= &quot; + day + &quot;, inicialHour= &quot; + inicialHour + &quot;, finalHour= &quot; + finalHour + &quot;, equipamento= &quot; + equipamento ;</span>
+    }
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>
