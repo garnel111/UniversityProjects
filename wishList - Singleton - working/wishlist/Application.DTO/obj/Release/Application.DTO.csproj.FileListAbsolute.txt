@@ -1,0 +1,6 @@
+C:\WishList\wishList\Application.DTO\bin\Release\Farfetch.Wishlist.Application.DTO.dll
+C:\WishList\wishList\Application.DTO\bin\Release\Farfetch.Wishlist.Application.DTO.pdb
+C:\WishList\wishList\Application.DTO\obj\Release\Application.DTO.csprojAssemblyReference.cache
+C:\WishList\wishList\Application.DTO\obj\Release\Application.DTO.csproj.CoreCompileInputs.cache
+C:\WishList\wishList\Application.DTO\obj\Release\Farfetch.Wishlist.Application.DTO.dll
+C:\WishList\wishList\Application.DTO\obj\Release\Farfetch.Wishlist.Application.DTO.pdb

@@ -1,0 +1,8 @@
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\b\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\b\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\b\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\b\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.csprojAssemblyReference.cache
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.csproj.CopyComplete
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\i\UnitTestProject1\Debug\UnitTestProject1.dll

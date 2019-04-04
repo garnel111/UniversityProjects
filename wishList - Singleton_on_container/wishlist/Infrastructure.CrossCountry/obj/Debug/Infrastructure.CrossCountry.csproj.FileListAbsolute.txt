@@ -1,0 +1,8 @@
+C:\WishList\wishList\Infrastructure.CrossCountry\bin\Debug\Farfetch.Wishlist.Infrastructure.CrossCountry.dll
+C:\WishList\wishList\Infrastructure.CrossCountry\bin\Debug\Farfetch.Wishlist.Infrastructure.CrossCountry.pdb
+C:\WishList\wishList\Infrastructure.CrossCountry\bin\Debug\Farfetch.Wishlist.Infrastructure.CrossCountry.dll.CodeAnalysisLog.xml
+C:\WishList\wishList\Infrastructure.CrossCountry\bin\Debug\Farfetch.Wishlist.Infrastructure.CrossCountry.dll.lastcodeanalysissucceeded
+C:\WishList\wishList\Infrastructure.CrossCountry\obj\Debug\Infrastructure.CrossCountry.csprojAssemblyReference.cache
+C:\WishList\wishList\Infrastructure.CrossCountry\obj\Debug\Infrastructure.CrossCountry.csproj.CoreCompileInputs.cache
+C:\WishList\wishList\Infrastructure.CrossCountry\obj\Debug\Farfetch.Wishlist.Infrastructure.CrossCountry.dll
+C:\WishList\wishList\Infrastructure.CrossCountry\obj\Debug\Farfetch.Wishlist.Infrastructure.CrossCountry.pdb

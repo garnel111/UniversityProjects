@@ -1,0 +1,415 @@
+<exhibiionCentre>
+    <userSet>
+        <user>
+            <name>Maria Venefredo</name>
+            <email>maria_venefredo@gmail.com</email>
+            <username>maria_venefredo</username>
+            <password>01230123</password>
+            <role>EVENT_MANAGER</role>
+        </user>
+        <user>
+            <name>João Pereira</name>
+            <email>joao_pereira@gmail.com</email>
+            <username>joao_pereira</username>
+            <password>01210123</password>
+            <role>PARTICIPANT</role>
+        </user>
+        <user>
+            <name>André Silva</name>
+            <email>andre_silva@gmail.com</email>
+            <username>andre_silva</username>
+            <password>32103210</password>
+            <role>EMPLOYEE</role>
+
+        </user>
+        <user>
+            <name>Manuel Garnel</name>
+            <email>manuel_garnel@gmail.com</email>
+            <username>manuel_garnel</username>
+            <password>00112233</password>
+            <role>EMPLOYEE</role>
+
+        </user>
+        <user>
+            <name>José Magalhães</name>
+            <email>jose_magalhaes@gmail.com</email>
+            <username>jose_magalhaes</username>
+            <password>01230123</password>
+            <role>ATENDEE</role>
+
+        </user>
+        <user>
+            <name>Ana Santos</name>
+            <email>ana_santos@gmail.com</email>
+            <username>ana_santos</username>
+            <password>00112233</password>
+            <role>EMPLOYEE</role>
+
+        </user>
+        <user>
+            <name>Andreia Silva</name>
+            <email>andreia_silva@gmail.com</email>
+            <username>andreia_silva</username>
+            <password>00112233</password>
+            <role>EMPLOYEE</role>
+
+        </user>
+    </userSet>
+    <eventSet>
+        <event>
+            <numberRooms>5</numberRooms>
+            <title>Boat Expo</title>
+            <description>Exibição de Barcos</description>
+            <startDate>2019-01-10</startDate>
+            <endDate>2019-01-20</endDate>
+            <place>Porto</place>
+            <stands>
+                <stand>
+                    <description>Stand 1</description>
+                    <area>117</area>
+                    <relativeDistanceSet>
+                        <distance>
+                                <description>Stand 2</description>
+                                <value>19</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 3</description>
+                                <value>3</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 4</description>
+                                <value>11</value>
+                        </distance>
+                    </relativeDistanceSet>
+                </stand>
+                <stand>
+                    <description>Stand 2</description>
+                    <area>53</area>
+                    <relativeDistanceSet>
+                        <distance>
+                                <description>Stand 7</description>
+                                <value>11</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 5</description>
+                                <value>12</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 3</description>
+                                <value>15</value>
+                        </distance>
+                    </relativeDistanceSet>
+                </stand>
+                <stand>
+                    <description>Stand 3</description>
+                    <area>59</area>
+                    <relativeDistanceSet>
+                        <distance>
+                                <description>Stand 4</description>
+                                <value>7</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 5</description>
+                                <value>9</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 6</description>
+                                <value>13</value>
+                        </distance>
+                    </relativeDistanceSet>
+                </stand>
+                <stand>
+                    <description>Stand 4</description>
+                    <area>60</area>
+                    <relativeDistanceSet>
+                        <distance>
+                                <description>Stand 6</description>
+                                <value>10</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 8</description>
+                                <value>20</value>
+                        </distance>
+                    </relativeDistanceSet>
+                </stand>
+                <stand>
+                    <description>Stand 5</description>
+                    <area>103</area>
+                    <relativeDistanceSet>
+                        <distance>
+                                <description>Stand 6</description>
+                                <value>12</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 7</description>
+                                <value>6</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 9</description>
+                                <value>18</value>
+                        </distance>
+                    </relativeDistanceSet>
+                </stand>
+                <stand>
+                    <description>Stand 6</description>
+                    <area>32</area>
+                    <relativeDistanceSet>
+                        <distance>
+                                <description>Stand 8</description>
+                                <value>8</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 9</description>
+                                <value>20</value>
+                        </distance>
+                    </relativeDistanceSet>            
+                </stand>
+                <stand>
+                    <description>Stand 7</description>
+                    <area>44</area>
+                    <relativeDistanceSet>
+                        <distance>
+                                <description>Stand 8</description>
+                                <value>16</value>
+                        </distance>
+                        <distance>
+                                <description>Stand 9</description>
+                                <value>17</value>
+                        </distance>
+                    </relativeDistanceSet>            
+                </stand>
+                <stand>
+                    <description>Stand 8</description>
+                    <area>117</area>
+                    <relativeDistanceSet>
+                        <distance>
+                                <description>Stand 9</description>
+                                <value>15</value>
+                        </distance>
+                    </relativeDistanceSet>            
+                </stand>
+                <stand>
+                    <description>Stand 9</description>
+                    <area>34</area>
+                </stand>
+                <stand>
+                    <description>Stand 10</description>
+                    <area>102</area>
+                </stand>
+                <stand>
+                    <description>Stand 11</description>
+                    <area>40</area>
+                </stand>
+                <stand>
+                    <description>Stand 12</description>
+                    <area>17</area>
+                </stand>
+                <stand>
+                    <description>Stand 13</description>
+                    <area>67</area>
+                </stand>
+                <stand>
+                    <description>Stand 14</description>
+                    <area>27</area>
+                </stand>
+                <stand>
+                    <description>Stand 15</description>
+                    <area>52</area>
+                </stand>
+                <stand>
+                    <description>Stand 16</description>
+                    <area>43</area>
+                </stand>
+                <stand>
+                    <description>Stand 17</description>
+                    <area>125</area>
+                </stand>
+                <stand>
+                    <description>Stand 18</description>
+                    <area>108</area>
+                </stand>
+                <stand>
+                    <description>Stand 19</description>
+                    <area>15</area>
+                </stand>
+                <stand>
+                    <description>Stand 20</description>
+                    <area>13</area>
+                </stand>
+            </stands>
+            <organiserSet>
+                <organiser>
+                    <user>
+                        <name>André Silva</name>
+                        <email>andre_silva@gmail.com</email>
+                        <username>andre_silva</username>
+                        <password>32103210</password>
+                        <role>EMPLOYEE</role>
+                    </user>
+                </organiser>
+            </organiserSet>
+            <StaffSet>
+                <staff>
+                    <user>
+                        <name>Manuel Garnel</name>
+                        <email>manuel_garnel@gmail.com</email>
+                        <username>manuel_garnel</username>
+                        <password>00112233</password>
+                        <role>EMPLOYEE</role>
+                    </user>
+                </staff>
+                <staff>        
+                    <user>
+                        <name>Ana Santos</name>
+                        <email>ana_santos@gmail.com</email>
+                        <username>ana_santos</username>
+                        <password>00112233</password>
+                        <role>EMPLOYEE</role>
+                    </user>
+                </staff>
+        </StaffSet>
+        <applicationSet>
+            <application>
+                <accepted>true</accepted>
+                <description>Candidatura para expor 1 barco</description>
+                <boothArea>158</boothArea>
+                <invitesQuantity>86</invitesQuantity>
+                <workshopSet>
+                    <workshop>
+                        <description>Workshop sobre como limpar um barco</description>
+                        <duration>2</duration>
+                        <equipmentSet>
+                            <equipment>motor de um barco</equipment>
+                            <equipment>3 focos</equipment>
+                            <equipment>1 esfergona 5000</equipment>
+                        </equipmentSet>
+                    </workshop>
+                    <workshop>
+                        <description>Workshop sobre como comprar um barco</description>
+                        <duration>2</duration>
+                        <equipmentSet>
+                            <equipment>catalogo de barcos nº787</equipment>
+                            <equipment>4 focos</equipment>
+                            <equipment>expositor</equipment>
+                            <equipment>banca</equipment>                           
+                        </equipmentSet>
+                    </workshop>
+                </workshopSet>
+                <reviews>
+                    <review>
+                        <text>text0153</text>
+                        <staffTopicKnowledge>0</staffTopicKnowledge>
+                        <eventAdequacy>1</eventAdequacy>
+                        <inviteAdequacy>5</inviteAdequacy>
+                        <recommendation>3</recommendation>
+                        <decision>accepted</decision>
+                        <assignment>
+                            <staff>
+                                <user>
+                                    <name>Manuel Garnel</name>
+                                    <email>manuel_garnel@gmail.com</email>
+                                    <username>manuel_garnel</username>
+                                    <password>00112233</password>
+                                    <role>EMPLOYEE</role>
+                                </user>
+                            </staff>
+                        </assignment>
+                    </review> 
+                </reviews>                    
+                <topics>
+                    <topic>Crabby</topic>
+                    <topic>Memory</topic>
+                    <topic>Natural</topic>
+                </topics>
+            </application>
+            
+            
+            <application>
+            <accepted>false</accepted>
+            <description>candidatura para expor motores</description>
+            <boothArea>65</boothArea>
+            <invitesQuantity>158</invitesQuantity>
+            <reviews>
+                <review>
+                    <text>text0303</text>
+                    <staffTopicKnowledge>0</staffTopicKnowledge>
+                    <eventAdequacy>3</eventAdequacy>
+                    <inviteAdequacy>0</inviteAdequacy>
+                    <recommendation>3</recommendation>
+                    <decision>accepted</decision>
+                    <assignment>
+                        <staff>
+                            <user>
+                                <name>Ana Santos</name>
+                                <email>ana_santos@gmail.com</email>
+                                <username>ana_santos</username>
+                                <password>00112233</password>
+                                <role>EMPLOYEE</role>
+                            </user>
+                        </staff>
+                    </assignment>
+                </review>
+                <review>
+                    <text>text1301</text>
+                    <staffTopicKnowledge>1</staffTopicKnowledge>
+                    <eventAdequacy>3</eventAdequacy>
+                    <inviteAdequacy>0</inviteAdequacy>
+                    <recommendation>1</recommendation>
+                    <decision>rejected</decision>
+                    <assignment>
+                        <staff>
+                            <user>
+                                    <name>Manuel Garnel</name>
+                                    <email>manuel_garnel@gmail.com</email>
+                                    <username>manuel_garnel</username>
+                                    <password>00112233</password>
+                                    <role>EMPLOYEE</role>
+                            </user>
+                        </staff>
+                    </assignment>
+                </review>
+            </reviews>
+            <topics>
+                <topic>Interest</topic>
+                <topic>Plot</topic>
+                <topic>Smiling</topic>
+                <topic>Interest</topic>
+            </topics>
+        </application>
+        <application>
+            <accepted>false</accepted>
+            <description>Description: 140190</description>
+            <boothArea>140</boothArea>
+            <invitesQuantity>190</invitesQuantity>
+            <reviews>
+                <review>
+                    <text>text0453</text>
+                    <staffTopicKnowledge>0</staffTopicKnowledge>
+                    <eventAdequacy>4</eventAdequacy>
+                    <inviteAdequacy>5</inviteAdequacy>
+                    <recommendation>3</recommendation>
+                    <decision>accepted</decision>
+                    <assignment>
+                        <staff>
+                            <user>
+                                    <name>Manuel Garnel</name>
+                                    <email>manuel_garnel@gmail.com</email>
+                                    <username>manuel_garnel</username>
+                                    <password>00112233</password>
+                                    <role>EMPLOYEE</role>
+                            </user>
+                        </staff>
+                    </assignment>
+                </review>               
+            </reviews>
+            <topics>
+                <topic>Interest</topic>
+                <topic>Cynical</topic>
+                <topic>Structure</topic>
+                <topic>Birthday</topic>
+            </topics>
+        </application>
+      </applicationSet>
+      </event>
+    </eventSet>
+</exhibiionCentre>

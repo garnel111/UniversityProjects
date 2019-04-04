@@ -1,0 +1,4 @@
+C:\wishList\wishlist\.vs\wishlist\lut\0\b\Data.Gateway\bin\Debug\Farfetch.Wishlist.Data.Gateway.dll
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Data.Gateway\Debug\Data.Gateway.csproj.CoreCompileInputs.cache
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Data.Gateway\Debug\Data.Gateway.csproj.CopyComplete
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Data.Gateway\Debug\Farfetch.Wishlist.Data.Gateway.dll

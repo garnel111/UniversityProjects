@@ -1,0 +1,19 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Application.DTO",
+    "\\Application.DTO\\Models",
+    "\\Application.Services",
+    "\\Application.Services\\Implementations",
+    "\\Application.Services\\TypeAdapters",
+    "\\Client",
+    "\\Client\\Implementations",
+    "\\Data.Repository",
+    "\\Data.Repository\\SqlQueries",
+    "\\Domain.Core",
+    "\\Domain.Core\\Interface",
+    "\\Domain.Model"
+  ],
+  "SelectedNode": "\\Data.Repository\\Implementations\\WishlistRepository.cs",
+  "PreviewInSolutionExplorer": true
+}

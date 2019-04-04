@@ -1,0 +1,4 @@
+C:\wishList\wishlist\.vs\wishlist\lut\0\b\Application.DTO\bin\Debug\Farfetch.wishlist.Application.DTO.dll
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Application.DTO\Debug\Application.DTO.csproj.CoreCompileInputs.cache
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Application.DTO\Debug\Application.DTO.csproj.CopyComplete
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Application.DTO\Debug\Farfetch.wishlist.Application.DTO.dll

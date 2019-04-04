@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Data.Repository\\Models",
+    "\\Data.Repository\\Models\\SqlQueries",
+    "\\Domain.Core\\Interface",
+    "\\Domain.Services",
+    "\\Presentation.WrbAPI",
+    "\\Presentation.WrbAPI\\App_Data",
+    "\\Presentation.WrbAPI\\App_Start",
+    "\\Presentation.WrbAPI\\Controllers"
+  ],
+  "PreviewInSolutionExplorer": true
+}

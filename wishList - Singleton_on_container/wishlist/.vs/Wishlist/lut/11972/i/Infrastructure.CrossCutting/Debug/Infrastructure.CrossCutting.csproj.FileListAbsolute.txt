@@ -1,0 +1,5 @@
+C:\wishList\wishlist\.vs\wishlist\lut\0\b\Infrastructure.CrossCountry\bin\Debug\Farfetch.Wishlist.Infrastructure.CrossCountry.dll
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Infrastructure.CrossCutting\Debug\Infrastructure.CrossCutting.csproj.CoreCompileInputs.cache
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Infrastructure.CrossCutting\Debug\Infrastructure.CrossCutting.csproj.CopyComplete
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Infrastructure.CrossCutting\Debug\Farfetch.Wishlist.Infrastructure.CrossCountry.dll
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Infrastructure.CrossCutting\Debug\Infrastructure.CrossCutting.csprojAssemblyReference.cache

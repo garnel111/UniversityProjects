@@ -1,0 +1,455 @@
+C:\wishList\wishlist\Presentation.WebAPI\bin\Presentation.WebAPI.dll.config
+C:\wishList\wishlist\Presentation.WebAPI\bin\Presentation.WebAPI.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Presentation.WebAPI.pdb
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\csc.exe
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\csc.exe.config
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\csc.rsp
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\csi.exe
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\csi.exe.config
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\csi.rsp
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.AppContext.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Console.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.IO.Compression.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.IO.Pipes.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Claims.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.ValueTuple.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Xml.XPath.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\vbc.exe
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\vbc.exe.config
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\vbc.rsp
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\wishList\wishlist\Presentation.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\wishList\wishlist\Presentation.WebAPI\bin\Microsoft.Win32.Primitives.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\netstandard.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.AppContext.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Collections.Concurrent.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Collections.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Collections.NonGeneric.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Collections.Specialized.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.ComponentModel.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.ComponentModel.EventBasedAsync.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.ComponentModel.Primitives.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.ComponentModel.TypeConverter.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Console.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Data.Common.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Diagnostics.Contracts.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Diagnostics.Debug.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Diagnostics.FileVersionInfo.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Diagnostics.Process.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Diagnostics.StackTrace.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Diagnostics.Tools.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Diagnostics.TraceSource.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Diagnostics.Tracing.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Drawing.Primitives.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Dynamic.Runtime.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Globalization.Calendars.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Globalization.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Globalization.Extensions.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.Compression.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.Compression.ZipFile.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.FileSystem.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.FileSystem.DriveInfo.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.FileSystem.Primitives.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.FileSystem.Watcher.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.IsolatedStorage.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.MemoryMappedFiles.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.Pipes.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.IO.UnmanagedMemoryStream.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Linq.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Linq.Expressions.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Linq.Parallel.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Linq.Queryable.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.Http.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.NameResolution.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.NetworkInformation.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.Ping.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.Primitives.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.Requests.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.Security.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.Sockets.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.WebHeaderCollection.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.WebSockets.Client.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.WebSockets.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.ObjectModel.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Reflection.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Reflection.Extensions.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Reflection.Primitives.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Resources.Reader.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Resources.ResourceManager.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Resources.Writer.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.Extensions.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.Handles.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.InteropServices.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.Numerics.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.Serialization.Formatters.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.Serialization.Json.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.Serialization.Primitives.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.Serialization.Xml.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Security.Claims.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Security.Cryptography.Algorithms.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Security.Cryptography.Csp.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Security.Cryptography.Encoding.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Security.Cryptography.Primitives.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Security.Cryptography.X509Certificates.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Security.Principal.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Security.SecureString.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Text.Encoding.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Text.Encoding.Extensions.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Text.RegularExpressions.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Threading.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Threading.Overlapped.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Threading.Tasks.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Threading.Tasks.Parallel.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Threading.Thread.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Threading.ThreadPool.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Threading.Timer.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Xml.ReaderWriter.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Xml.XDocument.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Xml.XmlDocument.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Xml.XmlSerializer.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Xml.XPath.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Xml.XPath.XDocument.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.Framework.Rest.Common.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.Framework.Rest.Server.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.DTO.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.Services.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Data.Repository.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Core.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Microsoft.Owin.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Newtonsoft.Json.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Owin.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Swashbuckle.Core.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.ValueTuple.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Web.Http.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Unity.Abstractions.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Unity.AspNet.WebApi.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Unity.Container.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\WebActivatorEx.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Model.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\AutoMapper.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\nunit.framework.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Moq.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Dapper.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Castle.Core.dll
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.DTO.pdb
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.DTO.dll.config
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.Services.pdb
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.Services.dll.config
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Data.Repository.pdb
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Data.Repository.dll.config
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Core.pdb
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Core.dll.config
+C:\wishList\wishlist\Presentation.WebAPI\bin\Microsoft.Owin.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.ValueTuple.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Web.Http.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\Newtonsoft.Json.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Model.pdb
+C:\wishList\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Model.dll.config
+C:\wishList\wishlist\Presentation.WebAPI\bin\AutoMapper.pdb
+C:\wishList\wishlist\Presentation.WebAPI\bin\AutoMapper.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\nunit.framework.pdb
+C:\wishList\wishlist\Presentation.WebAPI\bin\nunit.framework.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\Moq.pdb
+C:\wishList\wishlist\Presentation.WebAPI\bin\Moq.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\Dapper.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\wishList\wishlist\Presentation.WebAPI\bin\Castle.Core.xml
+C:\wishList\wishlist\Presentation.WebAPI\obj\Debug\Presentation.WebAPI.csprojAssemblyReference.cache
+C:\wishList\wishlist\Presentation.WebAPI\obj\Debug\Presentation.WebAPI.csproj.CoreCompileInputs.cache
+C:\wishList\wishlist\Presentation.WebAPI\obj\Debug\Presentation.WebAPI.csproj.CopyComplete
+C:\wishList\wishlist\Presentation.WebAPI\obj\Debug\Presentation.WebAPI.dll
+C:\wishList\wishlist\Presentation.WebAPI\obj\Debug\Presentation.WebAPI.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Presentation.WebAPI.dll.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Presentation.WebAPI.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Presentation.WebAPI.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\csc.exe
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\csc.exe.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\csc.rsp
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\csi.exe
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\csi.exe.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\csi.rsp
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.AppContext.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Console.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.IO.Compression.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.IO.Pipes.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Claims.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.ValueTuple.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Xml.XPath.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\vbc.exe
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\vbc.exe.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\vbc.rsp
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Win32.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\netstandard.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.AppContext.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Collections.Concurrent.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Collections.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Collections.NonGeneric.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Collections.Specialized.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.ComponentModel.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.ComponentModel.EventBasedAsync.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.ComponentModel.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.ComponentModel.TypeConverter.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Console.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Data.Common.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.Contracts.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.Debug.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.FileVersionInfo.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.Process.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.StackTrace.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.Tools.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.TraceSource.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.Tracing.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Drawing.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Dynamic.Runtime.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Globalization.Calendars.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Globalization.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Globalization.Extensions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.Compression.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.Compression.ZipFile.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.FileSystem.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.FileSystem.DriveInfo.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.FileSystem.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.FileSystem.Watcher.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.IsolatedStorage.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.MemoryMappedFiles.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.Pipes.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.IO.UnmanagedMemoryStream.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Linq.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Linq.Expressions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Linq.Parallel.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Linq.Queryable.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.Http.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.NameResolution.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.NetworkInformation.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.Ping.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.Requests.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.Security.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.Sockets.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.WebHeaderCollection.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.WebSockets.Client.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.WebSockets.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.ObjectModel.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Reflection.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Reflection.Extensions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Reflection.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Resources.Reader.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Resources.ResourceManager.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Resources.Writer.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.Extensions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.Handles.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.InteropServices.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.Numerics.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.Serialization.Formatters.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.Serialization.Json.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.Serialization.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.Serialization.Xml.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Security.Claims.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Security.Cryptography.Algorithms.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Security.Cryptography.Csp.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Security.Cryptography.Encoding.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Security.Cryptography.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Security.Cryptography.X509Certificates.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Security.Principal.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Security.SecureString.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Text.Encoding.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Text.Encoding.Extensions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Text.RegularExpressions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Threading.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Threading.Overlapped.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Threading.Tasks.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Threading.Tasks.Parallel.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Threading.Thread.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Threading.ThreadPool.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Threading.Timer.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Xml.ReaderWriter.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Xml.XDocument.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Xml.XmlDocument.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Xml.XmlSerializer.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Xml.XPath.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Xml.XPath.XDocument.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\EntityFramework.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\EntityFramework.SqlServer.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.Framework.Rest.Common.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.Framework.Rest.Server.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.DTO.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.Services.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.Wishlist.Data.Gateway.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Data.Repository.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Core.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Model.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Configuration.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Configuration.Json.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.FileProviders.Physical.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Options.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Primitives.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Owin.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Newtonsoft.Json.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Owin.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\SharpRepository.EfRepository.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\SharpRepository.Repository.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Swashbuckle.Core.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.ValueTuple.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Web.Http.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Unity.Abstractions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Unity.AspNet.WebApi.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Unity.Container.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\WebActivatorEx.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\WishlistTest.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\AutoMapper.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Dapper.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.Wishlist.Infrastructure.CrossCountry.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Moq.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Castle.Core.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.DTO.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.DTO.dll.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.Services.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Application.Services.dll.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.Wishlist.Data.Gateway.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.Wishlist.Data.Gateway.dll.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Data.Repository.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Data.Repository.dll.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Core.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Core.dll.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Model.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.wishlist.Domain.Model.dll.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\WishlistTest.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\WishlistTest.dll.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\EntityFramework.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\EntityFramework.SqlServer.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Configuration.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Configuration.Json.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.FileProviders.Physical.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Options.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Extensions.Primitives.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Owin.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.ValueTuple.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Web.Http.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Newtonsoft.Json.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\AutoMapper.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\AutoMapper.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Dapper.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.Wishlist.Infrastructure.CrossCountry.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Farfetch.Wishlist.Infrastructure.CrossCountry.dll.config
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Moq.pdb
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Moq.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\bin\Castle.Core.xml
+C:\wishList - Copy\wishlist\Presentation.WebAPI\obj\Debug\Presentation.WebAPI.csprojAssemblyReference.cache
+C:\wishList - Copy\wishlist\Presentation.WebAPI\obj\Debug\Presentation.WebAPI.csproj.CoreCompileInputs.cache
+C:\wishList - Copy\wishlist\Presentation.WebAPI\obj\Debug\Presentation.WebAPI.csproj.CopyComplete
+C:\wishList - Copy\wishlist\Presentation.WebAPI\obj\Debug\Presentation.WebAPI.dll
+C:\wishList - Copy\wishlist\Presentation.WebAPI\obj\Debug\Presentation.WebAPI.pdb

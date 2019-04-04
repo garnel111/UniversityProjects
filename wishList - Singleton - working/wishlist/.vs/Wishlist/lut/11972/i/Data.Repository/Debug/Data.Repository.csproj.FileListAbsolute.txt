@@ -1,0 +1,6 @@
+C:\wishList\wishlist\.vs\wishlist\lut\0\b\Data.Repository\bin\Debug\Farfetch.wishlist.Data.Repository.dll.config
+C:\wishList\wishlist\.vs\wishlist\lut\0\b\Data.Repository\bin\Debug\Farfetch.wishlist.Data.Repository.dll
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Data.Repository\Debug\Data.Repository.csproj.CoreCompileInputs.cache
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Data.Repository\Debug\Data.Repository.csproj.CopyComplete
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Data.Repository\Debug\Farfetch.wishlist.Data.Repository.dll
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Data.Repository\Debug\Data.Repository.csprojAssemblyReference.cache

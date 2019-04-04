@@ -1,0 +1,26 @@
+
+Date: Sat Jun 23 15:15:08 BST 2018 -> joao_pereira logged in;
+Date: Sat Jun 23 15:17:48 BST 2018 -> joao_pereira submited application 'Application 1' to event 'Boat Expo';
+Date: Sat Jun 23 15:18:46 BST 2018 -> andre_silva logged in;
+Date: Sat Jun 23 15:19:01 BST 2018 -> Organiser andre_silva assigned staff 'manuel_garnel to review application Application 1
+Date: Sat Jun 23 15:19:36 BST 2018 -> manuel_garnel logged in;
+Date: Sat Jun 23 15:21:16 BST 2018 -> manuel_garnel reviewed application 'Application 1';
+Date: Sat Jun 23 15:26:19 BST 2018 -> maria_venefredo logged in;
+Date: Sat Jun 23 15:26:33 BST 2018 -> maria_venefredo calculated event's 'Boat Expo' aceptance rate
+Date: Sat Jun 23 15:36:39 BST 2018 -> joao_pereira logged in;
+Date: Sat Jun 23 15:37:23 BST 2018 -> joao_pereira submited application 'App1' to event 'Boat Expo';
+Date: Sat Jun 23 15:37:41 BST 2018 -> andre_silva logged in;
+Date: Sat Jun 23 15:37:58 BST 2018 -> andre_silva assigned staff members to event 'Boat Expo';
+Date: Sat Jun 23 15:40:22 BST 2018 -> Organiser andre_silva assigned staff 'manuel_garnel to review application App1
+Date: Sat Jun 23 15:40:42 BST 2018 -> manuel_garnel logged in;
+Date: Sat Jun 23 15:41:39 BST 2018 -> manuel_garnel logged in;
+Date: Sat Jun 23 15:46:04 BST 2018 -> manuel_garnel logged in;
+Date: Sat Jun 23 15:48:29 BST 2018 -> manuel_garnel logged in;
+Date: Sat Jun 23 15:51:18 BST 2018 -> manuel_garnel logged in;
+Date: Sat Jun 23 15:51:51 BST 2018 -> manuel_garnel reviewed application 'Application 1';
+Date: Sat Jun 23 15:52:12 BST 2018 -> maria_venefredo logged in;
+Date: Sat Jun 23 15:53:01 BST 2018 -> andre_silva logged in;
+Date: Sat Jun 23 15:55:28 BST 2018 -> Organiser andre_silva assigned staff 'andreia_silva to review application Candidatura para expor 1 barco
+Date: Sat Jun 23 16:15:12 BST 2018 -> andre_silva logged in;
+Date: Sat Jun 23 16:15:27 BST 2018 -> Organiser andre_silva assigned staff 'manuel_garnel to review application x
+Date: Sat Jun 23 16:15:55 BST 2018 -> manuel_garnel logged in;

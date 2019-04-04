@@ -1,0 +1,7 @@
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\b\WishlistTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\b\WishlistTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\b\WishlistTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\b\WishlistTest\bin\Debug\WishlistTest.dll
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\i\WishlistTest\Debug\WishlistTest.csproj.CoreCompileInputs.cache
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\i\WishlistTest\Debug\WishlistTest.csproj.CopyComplete
+C:\WishList\Wishlist\.vs\Wishlist\lut\0\i\WishlistTest\Debug\WishlistTest.dll

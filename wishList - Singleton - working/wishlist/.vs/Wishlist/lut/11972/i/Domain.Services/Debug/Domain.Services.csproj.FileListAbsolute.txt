@@ -1,0 +1,4 @@
+C:\wishList\wishlist\.vs\wishlist\lut\0\b\Domain.Services\bin\Debug\Farfetch.Wishlist.Domain.Services.dll
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Domain.Services\Debug\Domain.Services.csproj.CoreCompileInputs.cache
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Domain.Services\Debug\Domain.Services.csproj.CopyComplete
+C:\wishList\wishlist\.vs\wishlist\lut\0\i\Domain.Services\Debug\Farfetch.Wishlist.Domain.Services.dll
