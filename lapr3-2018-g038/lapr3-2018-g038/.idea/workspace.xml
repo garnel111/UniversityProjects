@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cb57067-211a-4f5a-8ac5-27fd2db4543a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lapr3_2018$All_in_lapr3_2018_template__1_.ic" NAME="All in lapr3-2018-template (1) Coverage Results" MODIFIED="1545613109392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="211" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/utils/CalcMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/utils/PhysicalConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/utils/SendEmail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/controller/RequestBicycleControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/controller/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/model/ParkTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/controller/LoginControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/controller/BicycleControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/data/UserDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/model/SlotTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/model/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/model/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/controller/BicycleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/model/Park.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/model/Trip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/data/TripDb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/data/ParkDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/ui/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/controller/ParkControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/controller/TripController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/controller/TripControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lapr/project/utils/TripHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/utils/TripHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lapr/project/utils/SendEmailTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bike-sharing" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lapr3-2018-g038" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lapr3-2018-g038" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lapr3-2018-g038" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lapr3-2018-g038" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545864038862" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="lapr.project.controller.TripController" />
+      <recent name="lapr.project.utils.TripHelper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lapr.project.data" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="clean test jacoco:report org.pitest:pitest-maven:mutationCoverage" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.bike-sharing [clean,test,jacoco:report...]">
+    <configuration name="clean test jacoco:report org.pitest:pitest-maven:mutationCoverage" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lapr.project.ui.Main" />
+      <module name="lapr3-2018-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lapr.project.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripControllerTest.testGetHighValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lapr3-2018-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lapr.project.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lapr.project.controller" />
+      <option name="MAIN_CLASS_NAME" value="lapr.project.controller.TripControllerTest" />
+      <option name="METHOD_NAME" value="testGetHighValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripControllerTest.testGetValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lapr3-2018-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lapr.project.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lapr.project.controller" />
+      <option name="MAIN_CLASS_NAME" value="lapr.project.controller.TripControllerTest" />
+      <option name="METHOD_NAME" value="testGetValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripHelperTest.calculateAltitude" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lapr3-2018-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lapr.project.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lapr.project.utils" />
+      <option name="MAIN_CLASS_NAME" value="lapr.project.utils.TripHelperTest" />
+      <option name="METHOD_NAME" value="calculateAltitude" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripHelperTest.calculateAngleSlope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lapr3-2018-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lapr.project.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lapr.project.utils" />
+      <option name="MAIN_CLASS_NAME" value="lapr.project.utils.TripHelperTest" />
+      <option name="METHOD_NAME" value="calculateAngleSlope" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripHelperTest.testgetParks_Pair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lapr3-2018-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lapr.project.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lapr.project.utils" />
+      <option name="MAIN_CLASS_NAME" value="lapr.project.utils.TripHelperTest" />
+      <option name="METHOD_NAME" value="testgetParks_Pair" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bike-sharing [clean,test,jacoco:report...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+                <option value="jacoco:report" />
+                <option value="org.pitest:pitest-maven:mutationCoverage" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.clean test jacoco:report org.pitest:pitest-maven:mutationCoverage" />
+      <item itemvalue="JUnit.TripHelperTest.calculateAltitude" />
+      <item itemvalue="JUnit.TripHelperTest.testgetParks_Pair" />
+      <item itemvalue="JUnit.TripHelperTest.calculateAngleSlope" />
+      <item itemvalue="JUnit.TripControllerTest.testGetValues" />
+      <item itemvalue="JUnit.TripControllerTest.testGetHighValues" />
+      <item itemvalue="Maven.bike-sharing [clean,test,jacoco:report...]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TripHelperTest.calculateAngleSlope" />
+        <item itemvalue="JUnit.TripControllerTest.testGetHighValues" />
+        <item itemvalue="JUnit.TripControllerTest.testGetValues" />
+        <item itemvalue="JUnit.TripHelperTest.testgetParks_Pair" />
+        <item itemvalue="JUnit.TripHelperTest.calculateAltitude" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cb57067-211a-4f5a-8ac5-27fd2db4543a" name="Default Changelist" comment="" />
+      <created>1545612600551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545612600551</updated>
+      <workItem from="1545612604333" duration="1967000" />
+      <workItem from="1545614673694" duration="7711000" />
+      <workItem from="1545647951089" duration="24876000" />
+      <workItem from="1545733309040" duration="7424000" />
+      <workItem from="1545757184616" duration="9641000" />
+      <workItem from="1545774843756" duration="8491000" />
+      <workItem from="1545817379210" duration="35628000" />
+      <workItem from="1545937245297" duration="269000" />
+      <workItem from="1545937544400" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TripHelperTest_calculateAngleSlope - 2018.12.26 at 21h 31m 22s.xml">
+      <configuration name="TripHelperTest.calculateAngleSlope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripHelperTest_calculateAngleSlope - 2018.12.26 at 21h 32m 36s.xml">
+      <configuration name="TripHelperTest.calculateAngleSlope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripHelperTest_calculateAngleSlope - 2018.12.26 at 21h 35m 45s.xml">
+      <configuration name="TripHelperTest.calculateAngleSlope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripHelperTest_calculateAngleSlope - 2018.12.26 at 21h 42m 40s.xml">
+      <configuration name="TripHelperTest.calculateAngleSlope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripHelperTest_calculateAngleSlope - 2018.12.26 at 21h 43m 20s.xml">
+      <configuration name="TripHelperTest.calculateAngleSlope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripControllerTest_testGetValues - 2018.12.26 at 22h 05m 37s.xml">
+      <configuration name="TripControllerTest.testGetValues" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripControllerTest_testGetValues - 2018.12.26 at 22h 06m 24s.xml">
+      <configuration name="TripControllerTest.testGetValues" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripControllerTest_testGetHighValues - 2018.12.26 at 22h 11m 56s.xml">
+      <configuration name="TripControllerTest.testGetHighValues" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripHelperTest_calculateAngleSlope - 2018.12.26 at 22h 17m 39s.xml">
+      <configuration name="TripHelperTest.calculateAngleSlope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripHelperTest_calculateAngleSlope - 2018.12.26 at 22h 20m 18s.xml">
+      <configuration name="TripHelperTest.calculateAngleSlope" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="96077000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83384615" visible="true" weight="0.48793566" />
+      <window_info id="Structure" order="1" sideWeight="0.16615385" side_tool="true" weight="0.17292225" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" sideWeight="0.4986577" weight="0.054411765" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49597856" weight="0.04411765" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.53382355" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32941177" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.20588236" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50402147" side_tool="true" weight="0.4132353" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3295302" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="JSF" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="CDI" order="11" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/utils/CalcMethodsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/utils/PhysicalConstants.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4232">
+          <caret line="220" column="25" selection-start-line="220" selection-start-column="25" selection-end-line="220" selection-end-column="25" />
+          <folding>
+            <element signature="e#8525#8526#0" expanded="true" />
+            <element signature="e#8607#8608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/controller/UserControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/model/BicycleTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/controller/RequestBicycleController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/data/BicycleDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/model/Slot.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/controller/RequestBicycleControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/model/ParkTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/model/SlotTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/controller/LoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/controller/BicycleControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/controller/BicycleController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/model/Park.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/net/AbstractPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/utils/CalcMethods.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/oracle/jdbc/ojdbc7/12.1.0.2/ojdbc7-12.1.0.2.jar!/oracle/jdbc/driver/OracleDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="257" selection-start-line="257" selection-end-line="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/oracle/jdbc/ojdbc7/12.1.0.2/ojdbc7-12.1.0.2.jar!/oracle/jdbc/driver/PhysicalConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="993" selection-start-line="993" selection-end-line="993" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/oracle/jdbc/ojdbc7/12.1.0.2/ojdbc7-12.1.0.2.jar!/oracle/jdbc/driver/OraclePreparedStatementWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="767" selection-start-line="767" selection-end-line="767" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/data/DataHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/data/TripDb.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/utils/SendEmail.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/oracle/jdbc/ojdbc7/12.1.0.2/ojdbc7-12.1.0.2.jar!/oracle/jdbc/driver/OraclePreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="2164" selection-start-line="2164" selection-end-line="2164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/data/UserDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/data/ParkDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/model/UserTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="648" selection-start-line="648" selection-end-line="648" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/controller/ParkControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/controller/LoginControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/model/Trip.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/controller/ParkController.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/controller/TripControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/controller/TripController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/utils/TripHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lapr/project/ui/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/utils/TripHelperTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/lapr/project/utils/SendEmailTest.java" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lapr3-2018-g038</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
